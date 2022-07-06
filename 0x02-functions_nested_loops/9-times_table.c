@@ -7,7 +7,6 @@
  * Return: Always 0.
  */
 void times_table(void)
-{
 int main(void)
 {
 int i, j;
@@ -22,5 +21,4 @@ print("%5d", mat [i][j]);
 print("\n");
 }
 return (0);
-}
 }
