@@ -14,6 +14,7 @@ int mat[SIZE][SIZE];
 for (i = 0; i < SIZE; i++)
 for (j = 0; j < SIZE; j++)
 mat[i][j] = i + j;
+}
 for (i = 0; i < SIZE; i++)
 {
 for (j = 0; j < SIZE; j++)
