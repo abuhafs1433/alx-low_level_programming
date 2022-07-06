@@ -18,7 +18,7 @@ for (i = 0; i < SIZE; i++)
 {
 for (j = 0; j < SIZE; j++)
 _print("%5d", mat [i][j]);
-_print("\n");
-return (0);
+return("\n");
 }
+return (0);
 }
