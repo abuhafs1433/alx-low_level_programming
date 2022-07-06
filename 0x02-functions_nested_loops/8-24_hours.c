@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- * @u: The character to print
- * Return: Always 0.
+ * jack_bauer -> prints 24 hours
  */
 void umer_mohammed(void){}
 int i, j;
@@ -28,12 +26,13 @@ _putchar(':');
 _putchar('0');
 _putchar(j + '0');
 }
-else if (j > 10)
+else if (j >= 10)
 {
 _putchar(':');
 _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
 }
 }
+_putchar('\n');
 }
 
