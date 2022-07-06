@@ -17,8 +17,8 @@ mat[i][j] = i + j;
 for (i = 0; i < SIZE; i++)
 {
 for (j = 0; j < SIZE; j++)
-print("%5d", mat [i][j]);
-print("\n");
+_print("%5d", mat [i][j]);
+_print("\n");
 }
 return (0);
 }
