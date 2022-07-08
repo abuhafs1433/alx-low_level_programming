@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * print_diagonal - prints diagonal line
 * @n: print int
@@ -32,4 +31,5 @@ else
 _putchar ('\n')
 
 }
+
 }
