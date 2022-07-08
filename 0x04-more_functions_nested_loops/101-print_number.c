@@ -10,9 +10,11 @@
 
 void print_number(int n)
 {
+
 unsigned int m;
 
 if (n < 0)
+
 {
 _putchar('_');
 m = -n;
