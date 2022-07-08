@@ -3,7 +3,7 @@
 /**
 * print_number - prints int with putchar
 * @n: takes number, hello
-
+*
 * Return: void
 */
 
