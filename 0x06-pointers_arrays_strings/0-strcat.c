@@ -1,5 +1,5 @@
+#include "main.h"
 #include <string.h>
-#include "maun.h"
 
 /**
  * _strcat -> this is a function strcat
