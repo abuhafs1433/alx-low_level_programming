@@ -1,11 +1,5 @@
 #include "main.h"
 
-/**
- * cap_string -> capitalization function
- * @x: string param
- * Return: capitalized version of the string
- */
-char *cap_string(char *str)
 {
 int index = 0;
 while (str[++index])
@@ -25,7 +19,7 @@ str[index - 1] == '(' ||
 str[index - 1] == ')' ||
 str[index - 1] == '{' ||
 str[index - 1] == '}')
-str[index] -= 32;	
+str[index] -= 32;
 }
 return (str);
 }
